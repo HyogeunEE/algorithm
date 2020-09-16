@@ -33,7 +33,7 @@ int main() {
                 int& b = num[t*2+1];
                 sum += abs(a-b);
                 num[t] = max(a,b);
-            }
+            } 
         }
         printf("#%d %d\n", test_case, sum);
 	}
