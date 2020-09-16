@@ -21,7 +21,7 @@ int main() {
         cin >> input;
         fbnc[0] = 1;
         fbnc[1] = 1;
-
+ 
         if (input == 0)
             cout << "1 0\n";
         else if (input == 1)
