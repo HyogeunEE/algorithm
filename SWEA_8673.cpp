@@ -8,7 +8,7 @@ inline int max(int a, int b){
 }
 
 inline int abs(int a){
-    return a > 0 ? a : -a;
+    return a > 0 ? a : -a; 
 }
 
 int num[MAXN];
